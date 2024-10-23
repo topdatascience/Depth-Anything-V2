@@ -1,0 +1,14 @@
+# ignore directories called __pycache__ anywhere below the current level in a directory tree
+__pycache__
+.eggs
+.vscode
+venv*
+
+# ignore directories at root level 
+/.cache/
+/.pytest_cache/
+
+/build/
+/dist/
+/*.egg-info/
+.DS_Store
